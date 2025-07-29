@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const path = require("path")
 const express = require("express")
 const app =express();
@@ -25,7 +27,7 @@ app.use(checkForAuthentactionCookie("token"))
 app.use(express.static(path.resolve("./public")));
 
 
-mongoose.connect('mongodb://localhost:27017/blog')
+mongoose.connect(process.env.MONGO_URL)
 .then(e =>console.log('mongoDb Connected'))
 
 
