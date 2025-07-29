@@ -1,5 +1,5 @@
 
-## 📝 Project Title: Full Stack Blog Website with Authentication and MongoDB
+## 📝 Full Stack Blog Website with Authentication and MongoDB
 
 ---
 
@@ -76,12 +76,5 @@ This is a full-stack blog website where users can **sign up**, **log in**, **cre
 * **Authentication**: JWT (JSON Web Tokens)
 * **Password Security**: `crypto` module with HMAC-SHA256 + Salt
 
----
-
-## ✅ Conclusion
-
-This project is a **complete blog platform** with user registration, authentication, content creation, and dynamic routing. It demonstrates how a secure, real-world application works using **Node.js, Express, MongoDB, JWT, and EJS**.
-
-It’s ideal for understanding the **full flow of user interaction**, from sign-up to content posting, all while maintaining **secure practices** and **modular code**.
 
 
